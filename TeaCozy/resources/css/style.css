@@ -1,0 +1,149 @@
+/* General styling*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+a {
+  color: seashell;
+}
+/* ------*/
+
+/* Header styling */
+header {
+  background-color: black;
+  position: fixed;
+  top:0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: auto;
+}
+.logo img {
+  height: 50px
+}
+nav {
+  display: flex;
+  padding-right: 10px
+}
+nav span {
+  display: inline-block;
+  padding: 0px 10px;
+}
+/* ------*/
+
+
+/* Mission styling */
+#mission {
+  padding-top: 70px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px 700px ;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mission_text {
+  width:1200px;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+.mission_text h2,h4{
+  margin: 10px auto;
+}
+/* ------*/
+
+
+/* Menu styling */
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  min-width: 1000px;
+  padding-bottom: 70px;
+}
+.teatype {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+}
+.teatype img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+.tea_boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+/* ------*/
+
+
+/* Location styling */
+#locations {
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#locations h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.branch_box {
+  display: flex;
+  flex-direction: row;
+}
+.branch {
+  width: 300px;
+  height: auto;
+  opacity: 1;
+  background-color: black;
+  text-align: center;
+  margin: 0 20px;
+}
+.branch p, h3 {
+  padding: 8px 0;
+}
+
+/* ------*/
+
+/* Contact styling */
+#contact {
+  height: 200px;
+}
+#contact h2,h5 {
+  text-align: center;
+}
+/* ------*/
+
+/* Footer styling */
+.copyright h5 {
+  text-align: left;
+  margin-left: 20px;
+}
+/* ------*/
